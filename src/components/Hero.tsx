@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
             <div className="lg:w-1/2 mt-12 lg:mt-0">
             <img
-              src="https://github.com/Khushi018/khushi018.github.io/blob/main/images/AWS.png?raw=true"
+             src='https://github.com/Khushi018/khushi018.github.io/blob/main/images/react-images/khushi.jpg'
               alt="Professional headshot"
               className="h-64 object-cover mx-auto  rounded-lg"
             />
