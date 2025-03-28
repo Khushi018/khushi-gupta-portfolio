@@ -23,7 +23,7 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/khushi018/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                 <Linkedin size={24} />
               </a>
-              <a href="https://twitter.com/khushi018" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+              <a href="https://twitter.com/khushi018g" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                 <Twitter size={24} />
               </a>
             </div>
@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
             <div className="lg:w-1/2 mt-12 lg:mt-0">
             <img
-              src="/src/components/khushi.jpg"
+              src="https://github.com/Khushi018/khushi018.github.io/blob/main/images/AWS.png?raw=true"
               alt="Professional headshot"
               className="h-64 object-cover mx-auto  rounded-lg"
             />
