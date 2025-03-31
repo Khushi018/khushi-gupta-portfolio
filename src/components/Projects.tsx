@@ -2,26 +2,26 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+const baseImageUrl = "https://raw.githubusercontent.com/Khushi018/khushi018.github.io/refs/heads/main/images/react-images/";
 const personalProjects = [
   {
     title: "Orbitz.com Clone",
     description:
       "A travel search engine to search hotels, flights, and rentals.",
-    image: "../../assets/orbit.png",
+    image: `${baseImageUrl}orbit.png`,
     category: "frontend",
     tech: ["JavaScript", "CSS", "HTML"],
     demo: "https://github.com/Khushi018/Orbitz-clone",
-   "highlights": [
-        "Search and book hotels, flights, and rentals",
-        "Responsive and user-friendly UI",
-        "Dynamic filtering and sorting options"
-      ]
+    highlights: [
+      "Search and book hotels, flights, and rentals",
+      "Responsive and user-friendly UI",
+      "Dynamic filtering and sorting options",
+    ],
   },
   {
     title: "Leetcode Clone",
     description: "A coding practice platform with DSA challenges.",
-    image: "../../assets/aryabhatta.png",
+    image: `${baseImageUrl}aryabhatta.png`,
     category: "frontend",
     tech: ["Python", "React", "Postgres"],
     demo: "https://coding.dev.aryabhata.org/",
@@ -32,96 +32,96 @@ const personalProjects = [
     ],
   },
   {
-    "title": "Airline Reservation System",
-    "description": "A comprehensive flight booking system.",
-    "image": '../../assets/air-hero.png',
-    "category": "backend",
-    "tech": ["Java", "Spring Boot", "Spring Security", "MySQL"],
-    "demo": "https://github.com/Khushi018/Airline-Reservation-System",
-    "icon": "Flight",
-    "highlights": [
+    title: "Airline Reservation System",
+    description: "A comprehensive flight booking system.",
+    image: `${baseImageUrl}air-hero.png`,
+    category: "backend",
+    tech: ["Java", "Spring Boot", "Spring Security", "MySQL"],
+    demo: "https://github.com/Khushi018/Airline-Reservation-System",
+    icon: "Flight",
+    highlights: [
       "Role-based auth JWT",
       "Architecture for booking, flights",
-      "Deployed backend on AWS EC2"
-    ]
+      "Deployed backend on AWS EC2",
+    ],
   },
-  
   {
-    "title": "TRIPTALESPAY",
-    "description": "A multi-service platform for recharge and bill payments, hotel and flight bookings.",
-    "image": '../../assets/triptales.png',
-    "category": "fullstack",
-    "tech": ["Angular", "Bootstrap", "Node.js", "Express", "SQL", ],
-    "demo": "https://triptalespay.com/",
-    "icon": "Payments",
-    "highlights": [
+    title: "TRIPTALESPAY",
+    description:
+      "A multi-service platform for recharge and bill payments, hotel and flight bookings.",
+    image: `${baseImageUrl}triptales.png`,
+    category: "fullstack",
+    tech: ["Angular", "Bootstrap", "Node.js", "Express", "SQL"],
+    demo: "https://triptalespay.com/",
+    icon: "Payments",
+    highlights: [
       "Recharge & hotel & flight booking APIs",
       "Role-based authentication using JWT",
       "OTP verification for secure user registration",
-    ]
+    ],
   },
   {
-    "title": "Sweetopia",
-    "description": "A backend architecture - RESTful APIs.",
-    "image": '../../assets/sweetopia.png',
-    "category": "fullstack",
-    "tech": ["Java", "Spring Boot", "Spring Security", "MySQL", "JavaScript"],
-    "demo": "https://github.com/Khushi018/Sweetopia",
-    "icon": "ShoppingCart",
-    "highlights": [
-      "product and inventory management",
+    title: "Sweetopia",
+    description: "A backend architecture - RESTful APIs.",
+    image: `${baseImageUrl}sweetopia.png`,
+    category: "fullstack",
+    tech: ["Java", "Spring Boot", "Spring Security", "MySQL", "JavaScript"],
+    demo: "https://github.com/Khushi018/Sweetopia",
+    icon: "ShoppingCart",
+    highlights: [
+      "Product and inventory management",
       "User role-based authentication, secured APIs",
       "Multiple APIs for customers, products, and orders",
-    ]
-  }
-,    
+    ],
+  },
   {
-    "title": "Online Banking System",
-    "description": "A console-based banking application.",
-    "image": '../../assets/bank2.jpeg',
-    "category": "backend",
-    "tech": ["Java", "JDBC", "MySQL"],
-    "demo": "https://github.com/Khushi018/Online-Banking-Application",
-    "icon": "Bank",
-    "highlights": [
+    title: "Online Banking System",
+    description: "A console-based banking application.",
+    image: `${baseImageUrl}bank2.jpeg`,
+    category: "backend",
+    tech: ["Java", "JDBC", "MySQL"],
+    demo: "https://github.com/Khushi018/Online-Banking-Application",
+    icon: "Bank",
+    highlights: [
       "Customer account creation and management",
       "Accountant role for handling transactions",
       "Deposit, withdrawal, and money transfers",
-    ]
+    ],
   },
   {
-    "title": "My Glamm Clone",
-    "description": "A web-based platform for purchasing beauty and cosmetic products."
-,    "image": '../../assets/glammhero.png',
-    "category": "frontend",
-    "tech": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    "demo": "https://hermoso.netlify.app/",
-    "icon": "ShoppingBag",
-    "highlights": [
+    title: "My Glamm Clone",
+    description:
+      "A web-based platform for purchasing beauty and cosmetic products.",
+    image: `${baseImageUrl}glammhero.png`,
+    category: "frontend",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    demo: "https://hermoso.netlify.app/",
+    icon: "ShoppingBag",
+    highlights: [
       "Eye-catching and responsive UI design",
       "User authentication with sign-in and login functionality",
       "Product search and filtering features",
     ],
-    "responsibilities": [
+    responsibilities: [
       "Developed the Login/Signup and Checkout pages",
       "Worked on responsiveness for various devices",
-      "Implemented navigation and page linking"
-    ]
+      "Implemented navigation and page linking",
+    ],
   },
   {
-    "title": "QuesTime",
-    "description": "Interviews and one-on-one sessions platform",
-    "image":'../../assets/main-questime.png',
-    "category": "backend",
-    "tech": ["Java", "Spring Boot", "MySQL", "REST API"],
-    "demo": "https://github.com/Khushi018/Questime",
-    "icon": "Calendar",
-    "highlights": [
+    title: "QuesTime",
+    description: "Interviews and one-on-one sessions platform",
+    image: `${baseImageUrl}main-questime.png`,
+    category: "backend",
+    tech: ["Java", "Spring Boot", "MySQL", "REST API"],
+    demo: "https://github.com/Khushi018/Questime",
+    icon: "Calendar",
+    highlights: [
       "Create one-on-one interview slots",
       "Users can book available slots seamlessly",
-      "Bulk interview creation via CSV file upload"
-    ]
-  }     
+      "Bulk interview creation via CSV file upload",
+    ],
+  },
 ];
 
 const Projects = () => {
