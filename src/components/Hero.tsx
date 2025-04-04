@@ -34,12 +34,12 @@ const Hero = () => {
               <a href="#projects" className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors">
                 View Projects
               </a>
-                <a
+                {/* <a
               href='https://drive.google.com/file/d/17G7Qk8137RyFJesvdcNNdwkMOuGyxlnX/view?usp=sharing'
                 className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg hover:border-blue-600 dark:hover:border-blue-400 transition-colors"
                 >
                 Resume
-                </a>
+                </a> */}
               
             </div>
           </div>
