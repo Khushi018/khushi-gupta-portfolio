@@ -9,8 +9,9 @@ const Footer = () => {
           <div className="col-span-2">
             <h3 className="text-xl font-bold mb-4">Portfolio</h3>
             <p className="text-gray-400 mb-4">
-              Crafting innovative web solutions with passion and expertise in modern technologies.
+              Crafting innovative web solutions with passion and expertise in modern technologies.     Dedicated to delivering high-quality and user-friendly experiences.
             </p>
+          
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <Github size={20} />

@@ -24,15 +24,19 @@ const About = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 font-serif">
               Hi, I'm Khushi Gupta. A Skilled Software Developer with a strong foundation in building applications using Java, Spring Boot, and RESTful APIs. Eager to learn and grow in backend technologies, with exposure to the frontend technologies for full-stack versatility, microservices and High-level System Design concepts. I am passionate about building scalable applications and continuously learning new technologies.
             </p>
 
             <div className="mt-8 space-y-4">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Hobbies</h3>
-              <p className="text-gray-600 dark:text-gray-300">
-              When I'm not coding, I enjoy reading tech blogs, exploring new tools, and contributing to open-source projects. I also love dancing and hiking during my free time.
-              </p>
+                <p className="text-gray-600 dark:text-gray-300 font-serif">
+                When I'm not immersed in coding, I enjoy expanding my knowledge by reading tech blogs, exploring innovative tools, and contributing to open-source projects. 
+                </p>
+                <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 font-serif">
+                <li>Practicing yoga for mental clarity and physical well-being</li>
+                <li>Traveling to discover new cultures and gain fresh perspectives</li>
+                </ul>
             </div>
          
             <div className="mt-8">
@@ -58,7 +62,7 @@ const About = () => {
               <div className="text-sm text-blue-600 dark:text-blue-400 font-semibold mb-1">{item.year}</div>
               <div className="text-lg font-semibold text-gray-900 dark:text-white">{item.title}</div>
               <div className="text-gray-600 dark:text-gray-300">{item.company}</div>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">{item.description}</p>
+              <p className="mt-2 text-gray-600 dark:text-gray-400 font-serif">{item.description}</p>
               </div>
             ))}
           </div>
