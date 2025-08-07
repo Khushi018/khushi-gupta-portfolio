@@ -6,10 +6,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 lg:pr-12">
-            <h4 className="text-xl md:text-2xl font-serif">Hello 👋, I'm</h4>
+            {/* <h4 className="text-xl md:text-2xl font-serif">Hello 👋, I'm</h4> */}
             <h1 className="text-4xl md:text-5xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-6 font-serif">
             Khushi Gupta
-              <span className="block text-blue-600 dark:text-blue-400 font-serif">And I'm a Problem Solver & Tech Enthusiast</span>
+              <span className="block text-blue-600 dark:text-blue-400 font-serif">Problem Solver & Tech Enthusiast</span>
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 font-serif">
               Experienced Full Stack Java Developer focused on building robust and scalable server-side applications.

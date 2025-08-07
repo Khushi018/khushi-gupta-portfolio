@@ -25,7 +25,8 @@ const Skills = () => {
       { name: 'Tailwind', icon: Layout },
       { name: 'TypeScript', icon: FileJson },
       { name: 'HTML', icon: Layout },
-      { name: 'CSS', icon: Layout }
+      { name: 'CSS', icon: Layout },
+      { name: 'JavaScript', icon: Code2 }
       ]
     },
     {
@@ -35,15 +36,22 @@ const Skills = () => {
       { name: 'AWS', icon: Cloud },
       { name: 'CI/CD', icon: GitBranch },
       { name: 'Git', icon: Git }
+      ,{ name: 'Kubernetes', icon: Server },
+      { name: 'Jenkins', icon: Terminal },
+      { name: 'GCP', icon: Cloud }
+
       ]
     },
     {
       category: 'Tools',
       items: [
-      { name: 'VS Code', icon: Terminal },
       { name: 'Postman', icon: Send },
       { name: 'Lombok', icon: Box },
-      { name: 'Redis', icon: Cpu }
+      { name: 'Redis', icon: Cpu },
+      { name: 'Swagger', icon: Layout },
+      { name: 'GitHub', icon: Git },
+      { name: 'IntelliJ', icon: Terminal },
+      { name: 'Eclipse', icon: Terminal },
       ]
     },
     ];

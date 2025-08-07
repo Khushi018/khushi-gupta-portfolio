@@ -4,16 +4,22 @@ import { Download } from 'lucide-react';
 const About = () => {
   const timeline = [
     {
-      year: 'Sep 2024 - Present',
-      title: 'Software Engineer Trainee',
+      year: 'Sep 2024 - Apr 2025',
+      title: 'Software Developer',
       company: 'Vista Neotech Private Limited',
-      description: 'Working on full-stack development projects and building scalable backend applications',
+      description: 'Developed and maintained Android applications built in Java. Successfully resolved website bugs and led to notable web functionalities. Led the team to launch a new product. Implemented third-party APIs in applications.',
     },
     {
-      year: 'Nov 2023 - June 2024 - 8 mos',
-      title: 'Software Engineer Intern',
+      year: 'Nov 2023 - Aug 2024',
+      title: 'SDE Intern',
       company: 'Prompt Personnel',
-      description: 'Developed backend services and APIs for web applications using Java Springboot',
+      description: 'Developed backend services and APIs for web applications using Java SpringbootDesigned a secure identity verification platform leveraging facial analysis and backend integration. Contributed to the development of a lightweight computer vision-based login and monitoring system.',
+    },
+     {
+      year: 'Nov 2023 - May 2024',
+      title: 'Assessment Assistant',
+      company: 'Masai School',
+      description: 'Mentored students through mock interview sessions to prepare them for technical job roles. Conducted structured mock interviews for students, focusing on DSA, backend, and real-world problem-solving.',
     },
   ];
 
@@ -41,7 +47,7 @@ const About = () => {
          
             <div className="mt-8">
               <a
-               href='https://drive.google.com/file/d/17G7Qk8137RyFJesvdcNNdwkMOuGyxlnX/view?usp=sharing'
+               href='https://drive.google.com/file/d/17G7Qk8137RyFJesvdcNNdwkMOuGyxlnX/view?usp=sharwing'
                 className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 <Download size={20} className="mr-2" />
