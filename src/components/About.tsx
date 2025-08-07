@@ -45,7 +45,7 @@ const About = () => {
                 </ul>
             </div>
          
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <a
                href='https://drive.google.com/file/d/17G7Qk8137RyFJesvdcNNdwkMOuGyxlnX/view?usp=sharwing'
                 className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -53,7 +53,7 @@ const About = () => {
                 <Download size={20} className="mr-2" />
                 Download CV
               </a>
-            </div>
+            </div> */}
 
            
 
